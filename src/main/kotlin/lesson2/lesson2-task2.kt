@@ -9,6 +9,6 @@ fun main () {
     var salaryCompanyEmployees = companyEmployees * salary
     var expenses = (interns * salaryInterns) + salaryCompanyEmployees
     var averageSalary = expenses / staff
-             println(averageSalary)
+    println(averageSalary)
 
 }
