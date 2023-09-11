@@ -1,19 +1,19 @@
 package lesson3
 fun main () {
 
-    var number1 = 5
+    var number = 5
     var multiplicationTable = """
         
-        ${number1 * 1}
-        ${number1 * 2}
-        ${number1 * 3}
-        ${number1* 4}
-        ${number1 * 5}
-        ${number1 * 6}
-        ${number1 * 7}
-        ${number1 * 8}
-        ${number1 * 9}
-        ${number1 * 10}
+        ${number * 1}
+        ${number * 2}
+        ${number * 3}
+        ${number* 4}
+        ${number * 5}
+        ${number * 6}
+        ${number * 7}
+        ${number * 8}
+        ${number * 9}
+        ${number * 10}
         
     """.trimIndent()
     println(multiplicationTable)
