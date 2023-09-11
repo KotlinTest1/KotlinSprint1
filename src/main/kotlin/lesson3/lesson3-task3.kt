@@ -1,20 +1,21 @@
 package lesson3
 fun main () {
 
-    var number = """
+    var number1 = 5
+    var multiplicationTable = """
         
-        5 х 1 = 5
-        5 х 2 = 10
-        5 х 3 = 15
-        5 х 4 = 20
-        5 х 5 = 25
-        5 х 6 = 30
-        5 х 7 = 35
-        5 х 8 = 40
-        5 х 9 = 45
-        5 х 10 = 50
+        ${number1 * 1}
+        ${number1 * 2}
+        ${number1 * 3}
+        ${number1* 4}
+        ${number1 * 5}
+        ${number1 * 6}
+        ${number1 * 7}
+        ${number1 * 8}
+        ${number1 * 9}
+        ${number1 * 10}
         
     """.trimIndent()
-    println(number)
+    println(multiplicationTable)
 
 }
