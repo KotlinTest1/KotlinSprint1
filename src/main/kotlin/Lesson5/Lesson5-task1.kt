@@ -1,6 +1,6 @@
 fun main () {
 
-    val userAuthorization = 4
+    val userAuthorization = readln().toInt()
 
     if (userAuthorization == USER_RESPONSE) {
         println("Добро пожаловать!")
