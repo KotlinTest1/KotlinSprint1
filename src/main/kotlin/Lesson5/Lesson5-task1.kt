@@ -1,13 +1,13 @@
 fun main () {
 
-    val userAuthorization = readln().toInt()
+    val numberOne = readln().toInt()
+    val numberTwo = readln().toInt()
 
-    if (userAuthorization == USER_RESPONSE) {
+    if ((numberOne + numberTwo) == USER_RESPONSE) {
         println("Добро пожаловать!")
     }
-    if (userAuthorization != USER_RESPONSE) {
+    else  {
         println("Доступ запрещен!")
     }
-
 }
 const val USER_RESPONSE = 4
