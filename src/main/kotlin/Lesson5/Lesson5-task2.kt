@@ -1,10 +1,8 @@
 fun main () {
 
-    val yearOfBirth = 2019
-    val currentYear = 2023
-    val currentAge = currentYear - yearOfBirth
+    val yearOfBirth = readln().toInt()
+    val currentAge = (YEAR_OF_BIRTH - yearOfBirth)
     if (currentAge >= AGE_OF_MAJORITY) println("Показать экран со скрытым контентом")
-    else if (yearOfBirth < YEAR_OF_BIRTH)println("Показать экран со скрытым контентом")
     else println("Главный экран")
 
 }
