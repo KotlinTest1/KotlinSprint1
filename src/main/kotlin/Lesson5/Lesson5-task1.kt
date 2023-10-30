@@ -1,9 +1,9 @@
 fun main () {
 
-    val numberOne = readln().toInt()
-    val numberTwo = readln().toInt()
-    val responseToCaptcha = numberOne + numberTwo
-
+    val numberOne = 2
+    val actionOnANumber = "+"
+    val numberTwo = 2
+    val responseToCaptcha = readln().toInt()
     if ((numberOne + numberTwo) == responseToCaptcha) {
         println("Добро пожаловать!")
     }
