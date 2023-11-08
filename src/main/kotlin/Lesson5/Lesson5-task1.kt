@@ -10,6 +10,5 @@ fun main () {
     else  {
         println("Доступ запрещен!")
     }
-
 }
 
