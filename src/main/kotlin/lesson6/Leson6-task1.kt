@@ -7,7 +7,7 @@ fun main ()  {
     readln().toString()
     readln().toInt()
     do{
-           println("Авторизация прошла успешно $userName $userPassword")
+           println("Авторизация прошла успешно ${readln() == userName} ${readln().toInt() == userPassword}")
 
     }while (readln() == userName && readln().toInt() == userPassword)
 
